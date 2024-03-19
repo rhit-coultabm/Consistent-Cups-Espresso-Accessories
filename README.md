@@ -36,18 +36,26 @@ Our goal is to create a sub $120 open-source version of this system, lowering th
 
 
 
-Description of solution - 
+**Description of solution - **
 
-Code files -
+**Bill of Materials - **
 
-pressure sensor - 
+[BOM.xlsx](https://github.com/rhit-coultabm/Consistent-Cups-Espresso-Accessories/files/14654175/BOM.xlsx)
 
-1. Casing file
-2. links to components
-3. how to solder 
+**Code files -**
 
-scale - 
+**pressure sensor - **
 
 1. Casing file
-2. links to components
-3. how to solder 
+  
+3. links to components
+   
+5. how to solder 
+
+**scale - **
+
+1. Casing file
+
+3. links to components
+   
+5. how to solder 
