@@ -54,9 +54,10 @@ https://jlcpcb.com/?from=VGBNA&gad_source=1&gclid=CjwKCAjwh4-wBhB3EiwAeJsppDn5Pd
 
 **pressure sensor - **
 
-1. Casing file:
+1. Casing files:
    
-  
+[pressure_base.zip](https://github.com/rhit-coultabm/Consistent-Cups-Espresso-Accessories/files/14780216/pressure_base.zip)
+
 3. Components used:
    - Seeduino
    - Pressure Sensor
@@ -68,8 +69,10 @@ https://jlcpcb.com/?from=VGBNA&gad_source=1&gclid=CjwKCAjwh4-wBhB3EiwAeJsppDn5Pd
 
 **scale - **
 
-1. Casing file:
+1. Casing files:
    
+[scale_bottom.zip](https://github.com/rhit-coultabm/Consistent-Cups-Espresso-Accessories/files/14780224/scale_bottom.zip)
+
 
 3. Components used:
    - Seeduino
