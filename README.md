@@ -36,7 +36,7 @@ Our goal is to create a sub $120 open-source version of this system, lowering th
 
 
 
-**Description of solution - **
+**Description of the solution - **
 
 **Bill of Materials - **
 
@@ -44,18 +44,40 @@ Our goal is to create a sub $120 open-source version of this system, lowering th
 
 **Code files -**
 
+**PCB files - **
+
+[FAB-Senior Design-A.5.zip](https://github.com/rhit-coultabm/Consistent-Cups-Espresso-Accessories/files/14779862/FAB-Senior.Design-A.5.zip)
+
+We recommend using the following site to order the PCB! Just select 'Order Now', then upload the Gerber files provided above, select base material as FR-4, and then 'Save to cart' and continue to checkout!
+
+https://jlcpcb.com/?from=VGBNA&gad_source=1&gclid=CjwKCAjwh4-wBhB3EiwAeJsppDn5Pd4jk2OESbvpThskq3OpfqVmY4BNuV4RASAHVzgLXOW_oEA4fBoCTGIQAvD_BwE
+
 **pressure sensor - **
 
-1. Casing file
-  
-3. links to components
+1. Casing file:
    
-5. how to solder 
+  
+3. Components used:
+   - Seeduino
+   - Pressure Sensor
+   - Battery
+   - on/off switch
+   
+5. how to put together: 
+
 
 **scale - **
 
-1. Casing file
-
-3. links to components
+1. Casing file:
    
-5. how to solder 
+
+3. Components used:
+   - Seeduino
+   - Load Cell
+   - Battery
+   - PCB
+   - LCD
+   - on/off switch
+   
+5. how to put together:
+   
