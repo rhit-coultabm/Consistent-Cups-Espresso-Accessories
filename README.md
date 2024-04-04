@@ -32,19 +32,16 @@ Figure 2: Naked Portafilter Smart Espresso Profiler
 
 Figure 3: Acaia Lunar Espresso Scale 
 
-Our goal is to create a sub $120 open-source version of this system, lowering the entry cost to hobbyists and enabling more consistent cups of quality espresso.   
 
+**Description of the solution -**
 
+The market for espresso machines is a vastly large and competitive one. Every individual has their own preferences and lifestyles which result in the need for different machines, which vary significantly in user effort, time, and price.  Manual lever espresso machines offer an affordable entrance into brewing quality espresso at home.  A monitor system helps the novice get consistent pulls of espresso by tracking and logging variables like pressure and speed of pull. The existing market design for the pressure sensor is $400 and the scale is $200, a steep cost that ends up on the same price level as some higher-end automatic machines. The design group would need to make an open-source pressure sensor and scale system that could wirelessly connect to the SE Profiler or Coffee Flow phone app, create a GitHub repository with schematics, bill of materials, 3D printed case files, PCB files, and build instructions.  This all needed to be done for $120 or less. 
 
-**Description of the solution - **
-
-**Bill of Materials - **
+**Bill of Materials -**
 
 [BOM.xlsx](https://github.com/rhit-coultabm/Consistent-Cups-Espresso-Accessories/files/14654175/BOM.xlsx)
 
-**Code files -**
-
-**PCB files - **
+**PCB files -**
 
 [FAB-Senior Design-A.5.zip](https://github.com/rhit-coultabm/Consistent-Cups-Espresso-Accessories/files/14779862/FAB-Senior.Design-A.5.zip)
 
@@ -52,7 +49,7 @@ We recommend using the following site to order the PCB! Just select 'Order Now',
 
 https://jlcpcb.com/?from=VGBNA&gad_source=1&gclid=CjwKCAjwh4-wBhB3EiwAeJsppDn5Pd4jk2OESbvpThskq3OpfqVmY4BNuV4RASAHVzgLXOW_oEA4fBoCTGIQAvD_BwE
 
-**pressure sensor - **
+**Pressure sensor -**
 
 1. Casing files:
    
@@ -62,12 +59,12 @@ https://jlcpcb.com/?from=VGBNA&gad_source=1&gclid=CjwKCAjwh4-wBhB3EiwAeJsppDn5Pd
    - Seeduino
    - Pressure Sensor
    - Battery
-   - on/off switch
+   - On/off switch
    
-5. how to put together: 
+4. How to put together: 
 
 
-**scale - **
+**Scale -**
 
 1. Casing files:
    
@@ -80,7 +77,7 @@ https://jlcpcb.com/?from=VGBNA&gad_source=1&gclid=CjwKCAjwh4-wBhB3EiwAeJsppDn5Pd
    - Battery
    - PCB
    - LCD
-   - on/off switch
+   - On/off switch
    
-5. how to put together:
+4. How to put together:
    
