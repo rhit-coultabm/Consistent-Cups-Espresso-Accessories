@@ -151,16 +151,25 @@ Figure 13/14: How the casing end should look when all is completed
    
 How to put together:
 
-Step 1: 
+Step 1: Put headers on
 
 
-Step 2:
+Step 2: Solder PCB with components 
+- 
+- Note that you might have to file the short ends of the PCB down a little to make a snug press fit into the casing. This was done so that any sort of glue was not needed when assembling the system. 
+
+![1cfc37c3-a4c4-43a3-8807-36e35830bb72](https://github.com/rhit-coultabm/Consistent-Cups-Espresso-Accessories/assets/92759594/ad65405a-cd9c-4c88-8103-e562556b2658)
+
+Figure 15: Diital PCB layout
+
+![99710684-73d5-4d9d-af0a-ddaa33372d5e](https://github.com/rhit-coultabm/Consistent-Cups-Espresso-Accessories/assets/92759594/6913f29b-a96e-4a03-ad73-0f881fcd4cd5)
+
+Figure 16: Wiring diagram 
+
+Step 3: Add battery connections
 
 
-Step 3:
-
-
-Step 4: 
+Step 4: Assemble 
 
 
    
