@@ -61,6 +61,7 @@ https://jlcpcb.com/?from=VGBNA&gad_source=1&gclid=CjwKCAjwh4-wBhB3EiwAeJsppDn5Pd
    - Pressure Sensor
    - Battery
    - On/off switch
+   - Casing
   
    Shown here:
   
@@ -144,6 +145,8 @@ Figure 13/14: How the casing end should look when all is completed
    - PCB
    - LCD
    - On/off switch
+   - Casing
+   - Header Pins
    
 How to put together:
 
