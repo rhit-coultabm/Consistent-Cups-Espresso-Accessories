@@ -138,6 +138,10 @@ Figure 13/14: How the casing end should look when all is completed
 **Scale -**
 -
 
+![1cfc37c3-a4c4-43a3-8807-36e35830bb72](https://github.com/rhit-coultabm/Consistent-Cups-Espresso-Accessories/assets/92759594/ad65405a-cd9c-4c88-8103-e562556b2658)
+
+Figure 16: Wiring diagram 
+
 1. Casing files:
    
 [scale_bottom.zip](https://github.com/rhit-coultabm/Consistent-Cups-Espresso-Accessories/files/14780224/scale_bottom.zip)
@@ -160,7 +164,7 @@ How to put together:
 
 Step 1: Put headers on
 - 
-- The conponents that are on the BOM still need header pins to properly connect in later steps so use invidiual header pins and add them to the seeduino, the LED screen, and the ADC for the load cell. (all shown below in figure __) They are added by sticking the short side of the pin through the holes in the bottom side of the component and soldering the top to secure them.  
+- The conponents that are on the BOM still need header pins to properly connect in later steps so use invidiual header pins and add them to the seeduino, the LED screen, and the ADC for the load cell. (all shown below in figure 15) They are added by sticking the short side of the pin through the holes in the bottom side of the component and soldering the top to secure them.  
 
 ![e7d4111d-74c8-4bfd-bb3b-6f097d872508](https://github.com/rhit-coultabm/Consistent-Cups-Espresso-Accessories/assets/92759594/5333f40d-8bea-4345-9534-08bc82b13181)
 
@@ -172,10 +176,6 @@ Step 2: Solder PCB with components
 - Before adding the seeduino to the PCB, solder two small wires to the positive and negative places on the back (shown above in figure 15) this is to add battery connections later 
 - The PCB facilitates the the wiring diagram in figure 16
 - Follow the PCB layout (figure 17) when placing the components, all pins should have a place if added correctly so if the holes do not line up the components are in the incorrect place.
-
-![1cfc37c3-a4c4-43a3-8807-36e35830bb72](https://github.com/rhit-coultabm/Consistent-Cups-Espresso-Accessories/assets/92759594/ad65405a-cd9c-4c88-8103-e562556b2658)
-
-Figure 16: Wiring diagram 
 
 ![99710684-73d5-4d9d-af0a-ddaa33372d5e](https://github.com/rhit-coultabm/Consistent-Cups-Espresso-Accessories/assets/92759594/6913f29b-a96e-4a03-ad73-0f881fcd4cd5)
 
@@ -190,8 +190,6 @@ Step 3: Add battery connections
 - Continuing to follow the wiring diagram from above
 - It is probably easiest if you place the switch in the small rectangular hole on the side of the top part of the scale casing before continuting, then soldering with the switch in place 
 - Connect a wire from the positive pin of the seeduino and one side of the switch. Then connect the postivie side of the battery to the other pin on the switch and the negative side of the battery to the negative pin on the seeduino.
-
--When placing the PCB into the casing, the side of the PCB with the components 
 
 ![a551273f-3f79-4bcc-81a2-8d7fa3fc8f40](https://github.com/rhit-coultabm/Consistent-Cups-Espresso-Accessories/assets/92759594/34c9608f-5c34-484d-89df-d3e62bb265d9)
 
@@ -217,5 +215,12 @@ Figure 20: components all palaced into top part of casing
 
 Figure 21: fully assembled scale
 
-How to interface with the apps:
+How to interface with the apps / Use your system:
 -
+
+The apps used to interface with this system are called SE Profilier and Pressensor CF. Both of which are available on Apple and Android smart phones. 
+
+The first step into using your system is to charge the batteries. To do this: 
+- Plug a type c connecter into the seeduino port and then into the wall or a computer. This should be all that is needed to charge the system. The seeduino has automatic charging hardware that will charge the system without any added components. Charging the batteries for around ___ time will be fully charged and should last for around __ time.
+
+The next step into using your system is to flash the seeduinos with the Arduino code provided. To do this : 
