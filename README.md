@@ -35,11 +35,11 @@ Figure 3: Acaia Lunar Espresso Scale
 
 **Description of the solution -**
 
-The market for espresso machines is a vastly large and competitive one. Every individual has their own preferences and lifestyles which result in the need for different machines, which vary significantly in user effort, time, and price.  Manual lever espresso machines offer an affordable entrance into brewing quality espresso at home.  A monitor system helps the novice get consistent pulls of espresso by tracking and logging variables like pressure and speed of pull. The existing market design for the pressure sensor is $400 and the scale is $200, a steep cost that ends up on the same price level as some higher-end automatic machines. The design group would need to make an open-source pressure sensor and scale system that could wirelessly connect to the SE Profiler or Coffee Flow phone app, create a GitHub repository with schematics, bill of materials, 3D printed case files, PCB files, and build instructions.  This all needed to be done for $120 or less. 
+The market for espresso machines is a vastly large and competitive one. Every individual has their own preferences and lifestyles which result in the need for different machines, which vary significantly in user effort, time, and price.  Manual lever espresso machines offer an affordable entrance into brewing quality espresso at home.  A monitor system helps the novice get consistent pulls of espresso by tracking and logging variables like pressure and speed of pull. The existing market design for the pressure sensor is $400 and the scale is $200, a steep cost that ends up on the same price level as some higher-end automatic machines. The design group would need to make an open-source pressure sensor and scale system that could wirelessly connect to the SE Profiler or Coffee Flow phone app, create a GitHub repository with schematics, bill of materials, 3D printed case files, PCB files, and build instructions.  This all accomplishable with the materials posted below in the BOM, a soldering iron, a 3D printer, and a computer!
 
 **Bill of Materials -**
 
-[BOM.xlsx](https://github.com/rhit-coultabm/Consistent-Cups-Espresso-Accessories/files/14654175/BOM.xlsx)
+[BOM.xlsx](https://github.com/rhit-coultabm/Consistent-Cups-Espresso-Accessories/files/14972820/BOM.xlsx)
 
 **PCB files -**
 
@@ -61,7 +61,16 @@ https://jlcpcb.com/?from=VGBNA&gad_source=1&gclid=CjwKCAjwh4-wBhB3EiwAeJsppDn5Pd
    - Battery
    - On/off switch
    
-4. How to put together: 
+How to put together: 
+
+Step 1: Solder Power connections
+
+
+Step 2: Solder Pressure Sensor
+
+
+Step 3: Assemble
+
 
 
 **Scale -**
@@ -79,5 +88,18 @@ https://jlcpcb.com/?from=VGBNA&gad_source=1&gclid=CjwKCAjwh4-wBhB3EiwAeJsppDn5Pd
    - LCD
    - On/off switch
    
-4. How to put together:
+How to put together:
+
+Step 1: 
+
+
+Step 2:
+
+
+Step 3:
+
+
+Step 4: 
+
+
    
