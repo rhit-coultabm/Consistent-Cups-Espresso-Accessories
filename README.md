@@ -38,11 +38,13 @@ Figure 3: Acaia Lunar Espresso Scale
 The market for espresso machines is a vastly large and competitive one. Every individual has their own preferences and lifestyles which result in the need for different machines, which vary significantly in user effort, time, and price.  Manual lever espresso machines offer an affordable entrance into brewing quality espresso at home.  A monitor system helps the novice get consistent pulls of espresso by tracking and logging variables like pressure and speed of pull. The existing market design for the pressure sensor is $400 and the scale is $200, a steep cost that ends up at the same price level as some higher-end automatic machines. The design group would need to make an open-source pressure sensor and scale system that could wirelessly connect to the SE Profiler or Coffee Flow phone app, create a GitHub repository with schematics, bill of materials, 3D printed case files, PCB files, and build instructions.  This is all accomplishable with the materials posted below in the BOM, a soldering iron, a 3D printer, and a computer!
 
 **Bill of Materials -**
+-
 
 [BOM.xlsx](https://github.com/rhit-coultabm/Consistent-Cups-Espresso-Accessories/files/14973055/BOM.xlsx)
 
 
 **PCB files -**
+-
 
 [FAB-Senior Design-A.5.zip](https://github.com/rhit-coultabm/Consistent-Cups-Espresso-Accessories/files/14779862/FAB-Senior.Design-A.5.zip)
 
@@ -51,6 +53,7 @@ We recommend using the following site to order the PCB! Just select 'Order Now',
 https://jlcpcb.com/?from=VGBNA&gad_source=1&gclid=CjwKCAjwh4-wBhB3EiwAeJsppDn5Pd4jk2OESbvpThskq3OpfqVmY4BNuV4RASAHVzgLXOW_oEA4fBoCTGIQAvD_BwE
 
 **Pressure sensor -**
+-
 
 ![pressure sensor schematic](Images/Pressure/schem.jpg)
 
@@ -75,6 +78,7 @@ Figure 6: Wiring diagram
 How to put together: 
 
 Step 1: Solder Power connections
+-
 
 - Using the battery, two short wires, and the seeduino (shown below in figure 4) follow the wiring diagram (shown below in figure 6) connecting the battery positive (red) wire to one of the pins on the switch. Then the battery negative (black) wire to the negative pin on the back of the seeduino. Next, solder a wire from the other switch pin to the positive pin on the back of the seeduino. 
 - This final product attached to the casing cap is shown below in figure 5
@@ -89,6 +93,7 @@ Figure 5: final product of this step
 
 
 Step 2: Solder Pressure Sensor
+-
 - Using the two figures below, wire the pressure sensor with the Vcc to pin Vcc, the ground to ground, and the output to pin D2
 - Make sure that the pressure sensor is wired through the hole in the casing to the seeduino, this is to ensure that it can all be put together in the final step
 
@@ -107,6 +112,7 @@ Figure 10: Pressure sensor and seeduino attached and put into the casing
 
 
 Step 3: Assemble
+-
 - To finalize this part of the pressure sensor, attach the antenna to the seeduino (as shown in figure 11)
 - Next, fit all of the components into the casing, with seeduino on the shelf, the battery slotted into the main area of the casing, and the pressure sensor through the hole on the other side of the casing (all shown in figure 12)
 - Final product is shown in figure 13 and 14
@@ -130,6 +136,7 @@ Figure 13/14: How the casing end should look when all is completed
 
 
 **Scale -**
+-
 
 1. Casing files:
    
@@ -152,6 +159,7 @@ Figure 13/14: How the casing end should look when all is completed
 How to put together:
 
 Step 1: Put headers on
+- 
 
 
 ![e7d4111d-74c8-4bfd-bb3b-6f097d872508](https://github.com/rhit-coultabm/Consistent-Cups-Espresso-Accessories/assets/92759594/5333f40d-8bea-4345-9534-08bc82b13181)
@@ -173,12 +181,14 @@ Figure 16: Digital PCB layout
 
 
 Step 3: Add battery connections
+- 
 
 
 ![a551273f-3f79-4bcc-81a2-8d7fa3fc8f40](https://github.com/rhit-coultabm/Consistent-Cups-Espresso-Accessories/assets/92759594/34c9608f-5c34-484d-89df-d3e62bb265d9)
 
 
 Step 4: Assemble 
+-
 
 ![05537331-9f93-4f7b-aa63-e0d2bc520709](https://github.com/rhit-coultabm/Consistent-Cups-Espresso-Accessories/assets/92759594/c4207a68-92c2-488b-9ccd-fa5a47b97365)
 
