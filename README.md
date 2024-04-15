@@ -71,7 +71,7 @@ How to put together:
 
 Step 1: Solder Power connections
 
-- Using the battery, two short wires, and the seeduino (shown below in figure 4) follow the wiring diagram (shown below in figure 6)
+- Using the battery, two short wires, and the seeduino (shown below in figure 4) follow the wiring diagram (shown below in figure 6) connecting the battery positive (red) wire to one of the pins on the switch. Then the battery negative (black) wire to the negative pin on the back of the seeduino. Next, solder a wire from the other switch pin to the positive pin on the back of the seeduino. 
 - This final product attached to the casing cap is shown below in figure 5
 
 ![9c3ee703-73ec-4e26-9673-5833d4403e4e](https://github.com/rhit-coultabm/Consistent-Cups-Espresso-Accessories/assets/92759594/b503a13f-b484-4827-89ad-c62adab83f5b)
