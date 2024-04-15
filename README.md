@@ -60,11 +60,20 @@ https://jlcpcb.com/?from=VGBNA&gad_source=1&gclid=CjwKCAjwh4-wBhB3EiwAeJsppDn5Pd
    - Pressure Sensor
    - Battery
    - On/off switch
-   
+  
+![MicrosoftTeams-image (10)](https://github.com/rhit-coultabm/Consistent-Cups-Espresso-Accessories/assets/92759594/508b8cee-a858-4a56-9c45-193e7eb5a1a3)
+
 How to put together: 
 
 Step 1: Solder Power connections
 
+![9c3ee703-73ec-4e26-9673-5833d4403e4e](https://github.com/rhit-coultabm/Consistent-Cups-Espresso-Accessories/assets/92759594/b503a13f-b484-4827-89ad-c62adab83f5b)
+
+
+![1648bda0-c852-4667-9411-87879fa40bb3](https://github.com/rhit-coultabm/Consistent-Cups-Espresso-Accessories/assets/92759594/2203b135-a3a0-4e5d-a880-2ca993581256)
+
+
+![f0b722cf-e993-4e3d-a853-466cf3d3f7d0](https://github.com/rhit-coultabm/Consistent-Cups-Espresso-Accessories/assets/92759594/26c716e5-618b-4c05-9800-e513443388d2)
 
 Step 2: Solder Pressure Sensor
 
