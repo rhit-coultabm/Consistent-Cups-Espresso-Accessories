@@ -230,3 +230,24 @@ The first step into using your system is to charge the batteries. To do this:
 - Plug a type c connecter into the seeduino port and then into the wall or a computer. This should be all that is needed to charge the system. The seeduino has automatic charging hardware that will charge the system without any added components. Charging the batteries for around ___ time will be fully charged and should last for around __ time.
 
 The next step into using your system is to flash the seeduinos with the Arduino code provided. To do this : 
+
+
+After the code is flashed, connect to both seeduinos to your phone via Bluetooth. Open the application of choice (in this we will show SE profiler). 
+
+![Home screen](Images/App/home.PNG)
+
+Figure 22: Home screen of SE profiler app
+
+Navigate to the "Devices" page using the side bar menu, it looks like the following.
+
+![Devices page](Images/App/connect.PNG)
+
+Figure 23: Devices page of SE profiler app
+
+In this page, connect to the scale and pressure sensor, temperature will not be used here. Once both are connected, go back to the home screen. Change the dosage to the desired weight for the amount of espresso being used. 
+
+![Dose size](Images/App/dose.PNG)
+
+Figure 24: Page used to select espresso grind dosage.
+
+Once the grind is set, tare the scale in the app after setting up the cup and rest of the system. A start button should appear in the top right corner and this can be selected to begin the sensor measurements and process. Click stop once the shot has been pulled, if the current graph is desirable it can be saved into history to be used as a reference at a later date. 
