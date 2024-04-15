@@ -39,7 +39,8 @@ The market for espresso machines is a vastly large and competitive one. Every in
 
 **Bill of Materials -**
 
-[BOM.xlsx](https://github.com/rhit-coultabm/Consistent-Cups-Espresso-Accessories/files/14972820/BOM.xlsx)
+[BOM.xlsx](https://github.com/rhit-coultabm/Consistent-Cups-Espresso-Accessories/files/14973055/BOM.xlsx)
+
 
 **PCB files -**
 
