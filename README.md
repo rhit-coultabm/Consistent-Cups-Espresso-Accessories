@@ -39,7 +39,8 @@ The market for espresso machines is a vastly large and competitive one. Every in
 
 **Bill of Materials -**
 
-[BOM.xlsx](https://github.com/rhit-coultabm/Consistent-Cups-Espresso-Accessories/files/14972820/BOM.xlsx)
+[BOM.xlsx](https://github.com/rhit-coultabm/Consistent-Cups-Espresso-Accessories/files/14973055/BOM.xlsx)
+
 
 **PCB files -**
 
@@ -65,6 +66,7 @@ Figure 6: Wiring diagram
    - Pressure Sensor
    - Battery
    - On/off switch
+   - Casing
   
    Shown here:
   
@@ -74,7 +76,7 @@ How to put together:
 
 Step 1: Solder Power connections
 
-- Using the battery, two short wires, and the seeduino (shown below in figure 4) follow the wiring diagram (shown below in figure 6)
+- Using the battery, two short wires, and the seeduino (shown below in figure 4) follow the wiring diagram (shown below in figure 6) connecting the battery positive (red) wire to one of the pins on the switch. Then the battery negative (black) wire to the negative pin on the back of the seeduino. Next, solder a wire from the other switch pin to the positive pin on the back of the seeduino. 
 - This final product attached to the casing cap is shown below in figure 5
 
 ![battery and xiao](Images/Pressure/bat.jpg)
@@ -88,6 +90,7 @@ Figure 5: final product of this step
 
 Step 2: Solder Pressure Sensor
 - Using the two figures below, wire the pressure sensor with the Vcc to pin Vcc, the ground to ground, and the output to pin D2
+- Make sure that the pressure sensor is wired thorugh the hole in the casing to the seeduino, this is to ensure that it can all be put together in the final step
 
 
 ![sensor pinout](Images/Pressure/pinout.jpg)
@@ -140,19 +143,30 @@ Figure 13/14: How the casing end should look when all is completed
    - PCB
    - LCD
    - On/off switch
+   - Casing
+   - Header Pins
    
 How to put together:
 
-Step 1: 
+Step 1: Put headers on
 
 
-Step 2:
+Step 2: Solder PCB with components 
+- 
+- Note that you might have to file the short ends of the PCB down a little to make a snug press fit into the casing. This was done so that any sort of glue was not needed when assembling the system. 
+
+![1cfc37c3-a4c4-43a3-8807-36e35830bb72](https://github.com/rhit-coultabm/Consistent-Cups-Espresso-Accessories/assets/92759594/ad65405a-cd9c-4c88-8103-e562556b2658)
+
+Figure 15: Diital PCB layout
+
+![99710684-73d5-4d9d-af0a-ddaa33372d5e](https://github.com/rhit-coultabm/Consistent-Cups-Espresso-Accessories/assets/92759594/6913f29b-a96e-4a03-ad73-0f881fcd4cd5)
+
+Figure 16: Wiring diagram 
+
+Step 3: Add battery connections
 
 
-Step 3:
-
-
-Step 4: 
+Step 4: Assemble 
 
 
    
