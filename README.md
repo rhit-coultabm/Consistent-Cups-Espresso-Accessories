@@ -80,7 +80,7 @@ How to put together:
 Step 1: Solder Power connections
 -
 
-- Using the battery, two short wires, and the seeduino (shown below in figure 4) follow the wiring diagram (shown below in figure 6) connecting the battery positive (red) wire to one of the pins on the switch. Then the battery negative (black) wire to the negative pin on the back of the seeduino. Next, solder a wire from the other switch pin to the positive pin on the back of the seeduino. 
+- Using the battery, two short wires, and the seeduino (shown below in figure 4) follow the wiring diagram (shown above in figure 6) connecting the battery positive (red) wire to one of the pins on the switch. Then the battery negative (black) wire to the negative pin on the back of the seeduino. Next, solder a wire from the other switch pin to the positive pin on the back of the seeduino. 
 - This final product attached to the casing cap is shown below in figure 5
 
 ![battery and xiao](Images/Pressure/bat.jpg)
@@ -160,39 +160,62 @@ How to put together:
 
 Step 1: Put headers on
 - 
-
+- The conponents that are on the BOM still need header pins to properly connect in later steps so use invidiual header pins and add them to the seeduino, the LED screen, and the ADC for the load cell. (all shown below in figure __) They are added by sticking the short side of the pin through the holes in the bottom side of the component and soldering the top to secure them.  
 
 ![e7d4111d-74c8-4bfd-bb3b-6f097d872508](https://github.com/rhit-coultabm/Consistent-Cups-Espresso-Accessories/assets/92759594/5333f40d-8bea-4345-9534-08bc82b13181)
 
+Figure 15: how components look after header pins are attached 
 
 Step 2: Solder PCB with components 
 - 
-- Note that you might have to file the short ends of the PCB down a little to make a snug press fit into the casing. This was done so that any sort of glue was not needed when assembling the system. 
+- Note that you might have to file the short ends of the PCB down a little to make a snug press fit into the casing. This was done so that any sort of glue was not needed when assembling the system.
+- Before adding the seeduino to the PCB, solder two small wires to the positive and negative places on the back (shown above in figure 15) this is to add battery connections later 
+- The PCB facilitates the the wiring diagram in figure 16
+- Follow the PCB layout (figure 17) when placing the components, all pins should have a place if added correctly so if the holes do not line up the components are in the incorrect place.
 
 ![1cfc37c3-a4c4-43a3-8807-36e35830bb72](https://github.com/rhit-coultabm/Consistent-Cups-Espresso-Accessories/assets/92759594/ad65405a-cd9c-4c88-8103-e562556b2658)
 
-Figure 15: Wiring diagram 
+Figure 16: Wiring diagram 
 
 ![99710684-73d5-4d9d-af0a-ddaa33372d5e](https://github.com/rhit-coultabm/Consistent-Cups-Espresso-Accessories/assets/92759594/6913f29b-a96e-4a03-ad73-0f881fcd4cd5)
 
-Figure 16: Digital PCB layout
+Figure 17: Digital PCB layout
 
 ![69785241-9f5b-4e31-af9c-0759cddb6757](https://github.com/rhit-coultabm/Consistent-Cups-Espresso-Accessories/assets/92759594/bdb750e1-2db2-4250-b654-84b88cd393d5)
 
+Figure 18: soldered load cell
 
 Step 3: Add battery connections
 - 
+- Continuing to follow the wiring diagram from above
+- It is probably easiest if you place the switch in the small rectangular hole on the side of the top part of the scale casing before continuting, then soldering with the switch in place 
+- Connect a wire from the positive pin of the seeduino and one side of the switch. Then connect the postivie side of the battery to the other pin on the switch and the negative side of the battery to the negative pin on the seeduino.
 
+-When placing the PCB into the casing, the side of the PCB with the components 
 
 ![a551273f-3f79-4bcc-81a2-8d7fa3fc8f40](https://github.com/rhit-coultabm/Consistent-Cups-Espresso-Accessories/assets/92759594/34c9608f-5c34-484d-89df-d3e62bb265d9)
 
+Figure 19: Fully soldered components placed into the casing
 
 Step 4: Assemble 
 -
+- When placing the PCB into the casing it is important to flip it upsidedown. The side with the components should be facing down into the casing. The seeduino port should stick out of the indentation and the side of the casing.
+- Next the battery can be placed loose on the side of the casing with the switch, it can also be hotglued down but this inhibits quick battery changes in the future if needed
+- Now the load cell needs to be added
+     - On the side of the load cell there is a sticker with and arrow and this arrow should be facing opposite the inside of the casing. So if the casing is positioned like in figure 20, then the arrow will be facing the celiing.
+     - Next, holding the load cell in place, flip the casing over and attach the screws into the two holes on the top.
+- Finally, attach the bottom (thinner) part of the casing to the other side of the load cell with two more screws
+
+- As a last step, we added a small piece of acrylic to the LED screen hole on the top of the casing with hotglue or other adhesive. This is to help water proof the system so that none of the components are damaged if water or coffee gets into th system. 
 
 ![05537331-9f93-4f7b-aa63-e0d2bc520709](https://github.com/rhit-coultabm/Consistent-Cups-Espresso-Accessories/assets/92759594/c4207a68-92c2-488b-9ccd-fa5a47b97365)
 
+Figure 20: components all palaced into top part of casing 
 
 
 ![d64fa17d-2c13-425a-b485-37e4e7ca6f9d](https://github.com/rhit-coultabm/Consistent-Cups-Espresso-Accessories/assets/92759594/c759d9f8-0d19-4b95-8a13-3d5ac9f4bd7d)
 
+Figure 21: fully assembled scale
+
+How to interface with the apps:
+-
