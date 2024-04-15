@@ -1,0 +1,8 @@
+D10   ROUNDED            20.000      20.000       0.000  LINE       0.000
+D11   ROUNDED            10.000      10.000       0.000  LINE       0.000
+D12   ROUNDED            70.000      70.000       0.000 FLASH       0.000
+D13   OCTAGONAL          70.000      70.000       0.000 FLASH     180.000
+D14   RECTANGULAR        60.000     120.000       0.000 FLASH      90.000
+D15   ROUNDED            70.000      78.740       0.000 FLASH     180.000
+D16   RECTANGULAR        70.866      70.866       0.000 FLASH     270.000
+D17   ROUNDED            70.866      70.866       0.000 FLASH       0.000
