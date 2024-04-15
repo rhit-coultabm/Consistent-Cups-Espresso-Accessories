@@ -80,7 +80,6 @@ Figure 4: Items needed
 
 Figure 5: final product of this step
 
-
 ![ebd97e6b-1f4f-44e3-94f7-b4c81f71a065](https://github.com/rhit-coultabm/Consistent-Cups-Espresso-Accessories/assets/92759594/acf58382-491d-4c06-a991-7cc721aa4bf7)
 
 Figure 6: Wiring diagram 
@@ -88,7 +87,7 @@ Figure 6: Wiring diagram
 
 Step 2: Solder Pressure Sensor
 - Using the two figures below, wire the pressure sensor with the Vcc to pin Vcc, the ground to ground, and the output to pin D2
-- 
+
 
 ![93c0ebf7-ba26-46b3-847e-9c13e6e5a694](https://github.com/rhit-coultabm/Consistent-Cups-Espresso-Accessories/assets/92759594/99de7f53-fd39-44db-9044-b635df77b256)
 
@@ -99,13 +98,34 @@ Figure 7: Sensor Wiring assignments
 Figure 8: Wiring diagram
 
 ![cdd232f8-7777-4b1f-ac87-8251f978f37e](https://github.com/rhit-coultabm/Consistent-Cups-Espresso-Accessories/assets/92759594/4a3bda79-6be8-4e8d-98c8-ada6fb880f56)
+
 Figure 9: Wired pressure sensors with matching colors from figure 8
 
 ![1874f748-698e-4456-a6e0-650c7ba0616a](https://github.com/rhit-coultabm/Consistent-Cups-Espresso-Accessories/assets/92759594/93d3a95b-ea01-45d5-9bd7-290a77a2d067)
+
 Figure 10: Pressure sensor and seeduino attached and put into the casing
 
 
 Step 3: Assemble
+- To finalize this part of the pressure sensor, attach the antenna to the seeduino (as shown in figure 11)
+- Next, fit all of the components into the casing, with seeduino on the shelf, the battery slotted into the main area of the casing, and the pressure sensor through the hole on the other side of the casing (all shown in figure 12)
+- Final product shown in figure 13 and 14
+
+![2c156bd9-9291-4784-b503-da6c319bb661](https://github.com/rhit-coultabm/Consistent-Cups-Espresso-Accessories/assets/92759594/b1563120-563b-4975-b911-fdcc497daf99)
+
+Figure 11: Attached antenna to the seedunio
+
+![c7bbd2f2-a770-4a27-bed7-dbf7d90c0282](https://github.com/rhit-coultabm/Consistent-Cups-Espresso-Accessories/assets/92759594/1a0d23a2-fa98-4957-b659-9a71fd4a8da2)
+
+Figure 12: How to fit the components into the case
+
+![88153bb2-ba61-4284-b39e-aa38bb277666](https://github.com/rhit-coultabm/Consistent-Cups-Espresso-Accessories/assets/92759594/4722cc89-d3cd-4e37-b2ed-95cf308774fd)
+
+![f19f561e-0c57-4f12-a13e-3d3df6846991](https://github.com/rhit-coultabm/Consistent-Cups-Espresso-Accessories/assets/92759594/693ed929-bcd1-4e26-b73f-8e0c951ea7b0)
+
+Figure 13/14: How the casing end should look when all is completed 
+
+
 
 
 
