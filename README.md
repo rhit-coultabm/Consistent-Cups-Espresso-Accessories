@@ -89,6 +89,7 @@ Figure 6: Wiring diagram
 
 Step 2: Solder Pressure Sensor
 - Using the two figures below, wire the pressure sensor with the Vcc to pin Vcc, the ground to ground, and the output to pin D2
+- Make sure that the pressure sensor is wired thorugh the hole in the casing to the seeduino, this is to ensure that it can all be put together in the final step
 
 
 ![93c0ebf7-ba26-46b3-847e-9c13e6e5a694](https://github.com/rhit-coultabm/Consistent-Cups-Espresso-Accessories/assets/92759594/99de7f53-fd39-44db-9044-b635df77b256)
