@@ -7,7 +7,7 @@ The market for espresso machines is a vastly large and competitive one. Every in
 
 **Semi-Automatic Espresso Machines**
 
-Automatic machines require little user effort and time for extracting an espresso shot. However, the large downside to these machines is that, generally speaking, they cost upwards of $300-400 depending on the additional features and components they have. Once the grinds are tamped in the portafilter, the machine automatically applies the pressure for the duration of time that can sometimes be specified by the user.  
+Automatic machines require little user effort and time to extract an espresso shot. However, the large downside to these machines is that, generally speaking, they cost upwards of $300-400 depending on the additional features and components they have. Once the grinds are tamped in the portafilter, the machine automatically applies the pressure for the duration of time that can sometimes be specified by the user.  
 
  
 ![images](https://github.com/rhit-coultabm/Consistent-Cups-Espresso-Accessories/assets/92759594/d9ebb77a-002f-4e52-8c84-2f716b7bec55)
@@ -16,13 +16,13 @@ Figure 1: Semi-Automatic Espresso Machine Example
 
 **Manual Espresso Machines**
 
-Manual espresso machines require a significant amount of preparation, time, and effort. These machines are generally cheaper than their automatic counterparts, being found for upwards of $100. For these machines, once the grinds are tamped in the portafilter, the user must also heat their water to the desired temperature. The user then needs a scale underneath the cup to be able to see how fast they are extracting the espresso. After pulling the lever and applying pressure for a set amount of time, the extraction is finally complete. The downsides to this machine are the extensive clean-up time, and the loss of water temperature during the extraction. However, this machine allows the user to have complete control over the amount of pressure and time variables for making their own ideal cup of espresso, perfect for the connoisseurs. With the pressure transducer and scale, it would be even easier to repeat their results or tweak it to their preferences. An example of what this type of machine looks like is in the right image of Figure 3. 
+Manual espresso machines require a significant amount of preparation, time, and effort. These machines are generally cheaper than their automatic counterparts, being found for upwards of $100. For these machines, once the grinds are tamped in the portafilter, the user must also heat their water to the desired temperature. The user then needs a scale underneath the cup to be able to see how fast they are extracting the espresso. After pulling the lever and applying pressure for a set amount of time, the extraction is finally complete. The downsides to this machine are the extensive clean-up time and the loss of water temperature during the extraction. However, this machine allows the user to have complete control over the amount of pressure and time variables for making their own ideal cup of espresso, perfect for connoisseurs. With the pressure transducer and scale, it would be even easier to repeat their results or tweak them to their preferences. An example of what this type of machine looks like is in the right image of Figure 3. 
 
  
 
 Besides the bean and how it's roasted, a good cup of lever espresso relies on three main factors: Pressure, temperature, and speed of the pull.  The speed of pull is determined by the grind size of the bean and the pressure.  Pressure is controlled by pulling the machine's handle.  A monitor system lets you track and save the pressure and pull speed data to a template.  You can then follow the template when doing a future pull, enabling consistent tasting espresso. 
 
-The downside to such systems is the cost.  An entry level scale like the Acaia Lunar Espresso Scale is $250, and the pressure gauge is $460 from naked-portafilter (both pictured below). 
+The downside to such systems is the cost.  An entry-level scale like the Acaia Lunar Espresso Scale is $250, and the pressure gauge is $460 from naked-portafilter (both pictured below). 
 
 ![Capture](https://github.com/rhit-coultabm/Consistent-Cups-Espresso-Accessories/assets/92759594/4032a096-29ca-4a02-a5ee-2f61479c5c94)
 
@@ -35,7 +35,7 @@ Figure 3: Acaia Lunar Espresso Scale
 
 **Description of the solution -**
 
-The market for espresso machines is a vastly large and competitive one. Every individual has their own preferences and lifestyles which result in the need for different machines, which vary significantly in user effort, time, and price.  Manual lever espresso machines offer an affordable entrance into brewing quality espresso at home.  A monitor system helps the novice get consistent pulls of espresso by tracking and logging variables like pressure and speed of pull. The existing market design for the pressure sensor is $400 and the scale is $200, a steep cost that ends up on the same price level as some higher-end automatic machines. The design group would need to make an open-source pressure sensor and scale system that could wirelessly connect to the SE Profiler or Coffee Flow phone app, create a GitHub repository with schematics, bill of materials, 3D printed case files, PCB files, and build instructions.  This all accomplishable with the materials posted below in the BOM, a soldering iron, a 3D printer, and a computer!
+The market for espresso machines is a vastly large and competitive one. Every individual has their own preferences and lifestyles which result in the need for different machines, which vary significantly in user effort, time, and price.  Manual lever espresso machines offer an affordable entrance into brewing quality espresso at home.  A monitor system helps the novice get consistent pulls of espresso by tracking and logging variables like pressure and speed of pull. The existing market design for the pressure sensor is $400 and the scale is $200, a steep cost that ends up at the same price level as some higher-end automatic machines. The design group would need to make an open-source pressure sensor and scale system that could wirelessly connect to the SE Profiler or Coffee Flow phone app, create a GitHub repository with schematics, bill of materials, 3D printed case files, PCB files, and build instructions.  This is all accomplishable with the materials posted below in the BOM, a soldering iron, a 3D printer, and a computer!
 
 **Bill of Materials -**
 
@@ -90,7 +90,7 @@ Figure 5: final product of this step
 
 Step 2: Solder Pressure Sensor
 - Using the two figures below, wire the pressure sensor with the Vcc to pin Vcc, the ground to ground, and the output to pin D2
-- Make sure that the pressure sensor is wired thorugh the hole in the casing to the seeduino, this is to ensure that it can all be put together in the final step
+- Make sure that the pressure sensor is wired through the hole in the casing to the seeduino, this is to ensure that it can all be put together in the final step
 
 
 ![sensor pinout](Images/Pressure/pinout.jpg)
@@ -109,7 +109,7 @@ Figure 10: Pressure sensor and seeduino attached and put into the casing
 Step 3: Assemble
 - To finalize this part of the pressure sensor, attach the antenna to the seeduino (as shown in figure 11)
 - Next, fit all of the components into the casing, with seeduino on the shelf, the battery slotted into the main area of the casing, and the pressure sensor through the hole on the other side of the casing (all shown in figure 12)
-- Final product shown in figure 13 and 14
+- Final product is shown in figure 13 and 14
 
 ![2c156bd9-9291-4784-b503-da6c319bb661](https://github.com/rhit-coultabm/Consistent-Cups-Espresso-Accessories/assets/92759594/b1563120-563b-4975-b911-fdcc497daf99)
 
@@ -145,10 +145,16 @@ Figure 13/14: How the casing end should look when all is completed
    - On/off switch
    - Casing
    - Header Pins
+  
+![ed991ff2-6139-41c3-bf8c-696b488742b5](https://github.com/rhit-coultabm/Consistent-Cups-Espresso-Accessories/assets/92759594/e67d0c98-6bdd-40eb-b142-b4d18cde53d4)
+
    
 How to put together:
 
 Step 1: Put headers on
+
+
+![e7d4111d-74c8-4bfd-bb3b-6f097d872508](https://github.com/rhit-coultabm/Consistent-Cups-Espresso-Accessories/assets/92759594/5333f40d-8bea-4345-9534-08bc82b13181)
 
 
 Step 2: Solder PCB with components 
@@ -157,16 +163,26 @@ Step 2: Solder PCB with components
 
 ![1cfc37c3-a4c4-43a3-8807-36e35830bb72](https://github.com/rhit-coultabm/Consistent-Cups-Espresso-Accessories/assets/92759594/ad65405a-cd9c-4c88-8103-e562556b2658)
 
-Figure 15: Diital PCB layout
+Figure 15: Wiring diagram 
 
 ![99710684-73d5-4d9d-af0a-ddaa33372d5e](https://github.com/rhit-coultabm/Consistent-Cups-Espresso-Accessories/assets/92759594/6913f29b-a96e-4a03-ad73-0f881fcd4cd5)
 
-Figure 16: Wiring diagram 
+Figure 16: Digital PCB layout
+
+![69785241-9f5b-4e31-af9c-0759cddb6757](https://github.com/rhit-coultabm/Consistent-Cups-Espresso-Accessories/assets/92759594/bdb750e1-2db2-4250-b654-84b88cd393d5)
+
 
 Step 3: Add battery connections
 
 
+![a551273f-3f79-4bcc-81a2-8d7fa3fc8f40](https://github.com/rhit-coultabm/Consistent-Cups-Espresso-Accessories/assets/92759594/34c9608f-5c34-484d-89df-d3e62bb265d9)
+
+
 Step 4: Assemble 
 
+![05537331-9f93-4f7b-aa63-e0d2bc520709](https://github.com/rhit-coultabm/Consistent-Cups-Espresso-Accessories/assets/92759594/c4207a68-92c2-488b-9ccd-fa5a47b97365)
 
-   
+
+
+![d64fa17d-2c13-425a-b485-37e4e7ca6f9d](https://github.com/rhit-coultabm/Consistent-Cups-Espresso-Accessories/assets/92759594/c759d9f8-0d19-4b95-8a13-3d5ac9f4bd7d)
+
