@@ -241,7 +241,7 @@ In order to flash the firmware to the devices, the Arduino files must be opened 
 
 ### ESP32 + Arduino
 
-We recommend following the [instructions provided by Espressif](https://docs.espressif.com/projects/arduino-esp32/en/latest/getting_started.html) for setting up the ability to compile for and flash to ESP32. Once complete, click on tools, hover over the board, and scroll until you find "XIAO_ESP32C3" then select that as your target board.
+We recommend following the [instructions provided by Espressif](https://docs.espressif.com/projects/arduino-esp32/en/latest/installing.html) for setting up the ability to compile for and flash to ESP32. Once complete, click on tools, hover over the board, and scroll until you find "XIAO_ESP32C3" then select that as your target board.
 
 With the port the device is connected to via USB selected, click the upload button and wait for the compiling and flashing process to complete.
 
