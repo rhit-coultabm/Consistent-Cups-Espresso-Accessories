@@ -200,7 +200,7 @@ Figure 18: soldered load cell
 - 
 - Continuing to follow the wiring diagram from above
 - It is probably easiest if you place the switch in the small rectangular hole on the side of the top part of the scale casing before continuting, then soldering with the switch in place 
-- Connect a wire from the positive pin of the seeduino and one side of the switch. Then connect the postivie side of the battery to the other pin on the switch and the negative side of the battery to the negative pin on the seeduino.
+- Connect a wire from the positive pin of the seeduino and one side of the switch. Then connect the positive side of the battery to the other pin on the switch and the negative side of the battery to the negative pin on the seeduino.
 
 ![Placing components in scale enclosure top](Images/Scale/assembly.jpg)
 
@@ -208,14 +208,14 @@ Figure 19: Fully soldered components placed into the casing
 
 #### Step 4: Assemble 
 -
-- When placing the PCB into the casing it is important to flip it upsidedown. The side with the components should be facing down into the casing. The seeduino port should stick out of the indentation and the side of the casing.
-- Next the battery can be placed loose on the side of the casing with the switch, it can also be hotglued down but this inhibits quick battery changes in the future if needed
+- When placing the PCB into the casing it is important to flip it upside down. The side with the components should be facing down into the casing. The seeduino port should stick out of the indentation and the side of the casing.
+- Next, the battery can be placed loose on the side of the casing with the switch, it can also be hot glued down but this inhibits quick battery changes in the future if needed
 - Now the load cell needs to be added
-     - On the side of the load cell there is a sticker with and arrow and this arrow should be facing opposite the inside of the casing. So if the casing is positioned like in figure 20, then the arrow will be facing the celiing.
-     - Next, holding the load cell in place, flip the casing over and attach the screws into the two holes on the top.
+     - On the side of the load cell there is a sticker with and arrow and this arrow should be facing opposite the inside of the casing. So if the casing is positioned like in Figure 20, then the arrow will be facing the ceiling.
+     - Next, holding the load cell in place, flip the casing over and attach the screws to the two holes on the top.
 - Finally, attach the bottom (thinner) part of the casing to the other side of the load cell with two more screws
 
-- As a last step, we added a small piece of acrylic to the LED screen hole on the top of the casing with hotglue or other adhesive. Be careful with super-glue that may cause the acrylic to appear cloudy as the adhesive dries. This is to help water proof the system so that none of the components are damaged if water or coffee gets into th system. 
+- As a last step, we added a small piece of acrylic to the LED screen hole on the top of the casing with hot glue or other adhesive. Be careful with superglue which may cause the acrylic to appear cloudy as the adhesive dries. This is to help waterproof the system so that none of the components are damaged if water or coffee gets into the system. 
 
 ![Assembled scale top](Images/Scale/assembly2.jpg)
 
@@ -234,36 +234,36 @@ In order to flash the firmware to the devices, the Arduino files must be opened 
 
 ### ESP32 + Arduino
 
-We recommend following the [instructions provided by Espressif](https://docs.espressif.com/projects/arduino-esp32/en/latest/getting_started.html) for setting up the ability to compile for and flash to ESP32. Once complete, click on tools, hover over board, and scroll until you find "XIAO_ESP32C3" then select that as your target board.
+We recommend following the [instructions provided by Espressif](https://docs.espressif.com/projects/arduino-esp32/en/latest/getting_started.html) for setting up the ability to compile for and flash to ESP32. Once complete, click on tools, hover over the board, and scroll until you find "XIAO_ESP32C3" then select that as your target board.
 
 With the port the device is connected to via USB selected, click the upload button and wait for the compiling and flashing process to complete.
 
 ## Connecting with Profiler Apps
 
-The apps used to interface with this system are called SE Profiler and Pressensor CF. Both of which are available on Apple and Android smart phones. 
+The apps used to interface with this system are called SE Profiler and Pressensor CF. Both of which are available on Apple and Android smartphones. 
 
-The first step into using your system is to charge the batteries. To do this: 
-- Plug a type c connecter into the seeduino port and then into the wall or a computer. This should be all that is needed to charge the system. The seeduino has automatic charging hardware that will charge the system without any added components. Charging the batteries for around ___ time will be fully charged and should last for around __ time.
+The first step in using your system is to charge the batteries. To do this: 
+- Plug a type c connecter into the seeduino port and then into the wall or a computer. This should be all that is needed to charge the system. The seeduino has automatic charging hardware that will charge the system without any added components. Charging the batteries for around 30 min to 1 hour time will be fully charged and should last for around 1 week time.
 
-The next step into using your system is to flash the seeduinos with the Arduino code provided. To do this : 
+The next step in using your system is to flash the seeduinos with the Arduino code provided. To do this : 
 
 
-After the code is flashed, connect to both seeduinos to your phone via Bluetooth. Open the application of choice (in this we will show SE profiler). 
+After the code is flashed, connect both seeduinos to your phone via Bluetooth. Open the application of choice (in this we will show SE profiler). 
 
 ![Home screen](Images/App/home.PNG)
 
 Figure 22: Home screen of SE profiler app
 
-Navigate to the "Devices" page using the side bar menu, it looks like the following.
+Navigate to the "Devices" page using the sidebar menu, it looks like the following.
 
 ![Devices page](Images/App/connect.PNG)
 
 Figure 23: Devices page of SE profiler app
 
-In this page, connect to the scale and pressure sensor, temperature will not be used here. Once both are connected, go back to the home screen. Change the dosage to the desired weight for the amount of espresso being used. 
+On this page, connect to the scale and pressure sensor, temperature will not be used here. Once both are connected, go back to the home screen. Change the dosage to the desired weight for the amount of espresso being used. 
 
 ![Dose size](Images/App/dose.PNG)
 
 Figure 24: Page used to select espresso grind dosage.
 
-Once the grind is set, tare the scale in the app after setting up the cup and rest of the system. A start button should appear in the top right corner and this can be selected to begin the sensor measurements and process. Click stop once the shot has been pulled, if the current graph is desirable it can be saved into history to be used as a reference at a later date. 
+Once the grind is set, tare the scale in the app after setting up the cup and the rest of the system. A start button should appear in the top right corner and this can be selected to begin the sensor measurements and process. Click stop once the shot has been pulled, if the current graph is desirable it can be saved into history to be used as a reference at a later date. 
