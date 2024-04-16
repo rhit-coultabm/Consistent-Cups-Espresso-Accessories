@@ -1,3 +1,9 @@
+/*
+  Written by Bryce Bejlovec following the BLE example code
+  by Neil Kolban and Evandro Copercini
+
+  Implementation of pressure transducer firmware based on PRS
+*/
 #include <BLEDevice.h>
 #include <BLEServer.h>
 #include <BLEUtils.h>

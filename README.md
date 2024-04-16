@@ -17,6 +17,7 @@ Open Source DIY solution to create Bluetooth-compatible pressure sensor and scal
       - [Components Used](#components-used-1)
       - [Casing and PCB Files](#casing-and-pcb-files)
       - [Assembly Instructions](#assembly-instructions-1)
+   - [Flashing the Devices](#flashing-the-devices)
    - [Connecting with Profiler Apps](#connecting-with-profiler-apps)
 
 ## Project Background and Introduction
@@ -80,6 +81,7 @@ Figure 6: Wiring diagram
 ### Casing files
    
 [Body](Enclosure_Files/Pressure_Sensor/pressure_base.STL)
+
 [Cap](Enclosure_Files/Pressure_Sensor/pressure_end.STL)
 
 ### Assembly Instructions
@@ -162,6 +164,7 @@ Figure 16: Wiring diagram
 ### Casing and PCB files
    
 [Scale Top](Enclosure_Files/Scale/scale_top.STL)
+
 [Scale Bottom](Enclosure_Files/Scale/scale_bottom.STL)
 
 [PCB Files](PCB_Files)
@@ -222,6 +225,18 @@ Figure 20: Fully assembled top of enclosure
 ![final scale](Images/Scale/assembled.jpg)
 
 Figure 21: Fully assembled scale
+
+## Flashing the Devices
+
+The firmware code for each respective device can be found under the [Arduino folder](Arduino) of this repository.
+
+In order to flash the firmware to the devices, the Arduino files must be opened in an [Arduino IDE](https://www.arduino.cc/en/software) set up for ESP32. We used the Legacy IDE (1.8.X) in the development process.
+
+### ESP32 + Arduino
+
+We recommend following the [instructions provided by Espressif](https://docs.espressif.com/projects/arduino-esp32/en/latest/getting_started.html) for setting up the ability to compile for and flash to ESP32. Once complete, click on tools, hover over board, and scroll until you find "XIAO_ESP32C3" then select that as your target board.
+
+With the port the device is connected to via USB selected, click the upload button and wait for the compiling and flashing process to complete.
 
 ## Connecting with Profiler Apps
 
