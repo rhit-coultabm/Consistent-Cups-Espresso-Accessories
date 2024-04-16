@@ -179,6 +179,7 @@ To have a PCB made, you could use [JLPCB](https://jlcpcb.com/?from=VGBNA&gad_sou
 - The conponents that are on the BOM still need header pins to properly connect in later steps so use invidiual header pins and add them to the seeduino, the LED screen, and the ADC for the load cell. (all shown below in figure 15) They are added by sticking the short side of the pin through the holes in the bottom side of the component and soldering the top to secure them.  
 
 ![pin attachment](Images/Scale/pins.jpg)
+
 Figure 15: how components look after header pins are attached 
 
 #### Step 2: Solder PCB with components 
