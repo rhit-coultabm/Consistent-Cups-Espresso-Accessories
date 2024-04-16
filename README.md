@@ -101,7 +101,7 @@ Figure 5: final product of this step
 
 
 #### Step 2: Solder Pressure Sensor
--
+
 - Using the two figures below, wire the pressure sensor with the Vcc to pin Vcc, the ground to ground, and the output to pin D2
 - Make sure that the pressure sensor is wired through the hole in the casing to the seeduino, this is to ensure that it can all be put together in the final step
 
@@ -120,7 +120,7 @@ Figure 10: Pressure sensor and seeduino attached and put into the casing
 
 
 #### Step 3: Assemble
--
+
 - To finalize this part of the pressure sensor, attach the antenna to the seeduino (as shown in figure 11)
 - Next, fit all of the components into the casing, with seeduino on the shelf, the battery slotted into the main area of the casing, and the pressure sensor through the hole on the other side of the casing (all shown in figure 12)
 - Final product is shown in figure 13 and 14
