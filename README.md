@@ -175,14 +175,14 @@ To have a PCB made, you could use [JLPCB](https://jlcpcb.com/?from=VGBNA&gad_sou
 ### Assembly Instructions
 
 #### Step 1: Put headers on
-- 
+
 - The conponents that are on the BOM still need header pins to properly connect in later steps so use invidiual header pins and add them to the seeduino, the LED screen, and the ADC for the load cell. (all shown below in figure 15) They are added by sticking the short side of the pin through the holes in the bottom side of the component and soldering the top to secure them.  
 
 ![pin attachment](Images/Scale/pins.jpg)
 Figure 15: how components look after header pins are attached 
 
 #### Step 2: Solder PCB with components 
-- 
+
 - Note that you might have to file the short ends of the PCB down a little to make a snug press fit into the casing. This was done so that any sort of glue was not needed when assembling the system.
 - Before adding the seeduino to the PCB, solder two small wires to the positive and negative places on the back (shown above in figure 15) this is to add battery connections later 
 - The PCB facilitates the the wiring diagram in figure 16
@@ -197,7 +197,7 @@ Figure 17: Digital PCB layout
 Figure 18: soldered load cell
 
 #### Step 3: Add battery connections
-- 
+
 - Continuing to follow the wiring diagram from above
 - It is probably easiest if you place the switch in the small rectangular hole on the side of the top part of the scale casing before continuting, then soldering with the switch in place 
 - Connect a wire from the positive pin of the seeduino and one side of the switch. Then connect the positive side of the battery to the other pin on the switch and the negative side of the battery to the negative pin on the seeduino.
@@ -207,7 +207,7 @@ Figure 18: soldered load cell
 Figure 19: Fully soldered components placed into the casing
 
 #### Step 4: Assemble 
--
+
 - When placing the PCB into the casing it is important to flip it upside down. The side with the components should be facing down into the casing. The seeduino port should stick out of the indentation and the side of the casing.
 - Next, the battery can be placed loose on the side of the casing with the switch, it can also be hot glued down but this inhibits quick battery changes in the future if needed
 - Now the load cell needs to be added
