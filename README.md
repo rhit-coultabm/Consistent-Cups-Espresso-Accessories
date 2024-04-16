@@ -185,9 +185,15 @@ Figure 15: how components look after header pins are attached
 #### Step 2: Solder PCB with components 
 
 - Note that you might have to file the short ends of the PCB down a little to make a snug press fit into the casing. This was done so that any sort of glue was not needed when assembling the system.
+- Also note that this PCB is one sided so the components are placed on the side without copper and all of the soldering is done on the side with copper.
+  
 - Before adding the seeduino to the PCB, solder two small wires to the positive and negative places on the back (shown above in figure 15) this is to add battery connections later 
 - The PCB facilitates the the wiring diagram in figure 16
 - Follow the PCB layout (figure 17) when placing the components, all pins should have a place if added correctly so if the holes do not line up the components are in the incorrect place.
+
+- To wire the load cell, position the PCB with the compoennts facing down and the LED screen on the bottom. Next, following Figure 18, connect the wires in this order from left to right: green, white, black, and red.
+
+- In our solution we applied a heat shrink wrap around the load cell connections so ensure that when placed into the case the connections are still strong. This is not a required step so it is not included in the BOM but an alternative would be to wrap electrical wire around the connections and it will functions the same as the heat shrink wrap. 
 
 ![CAD model of PCB](Images/Scale/pcb.jpg)
 
